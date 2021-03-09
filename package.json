@@ -1,0 +1,17 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "This is my Realtime chat application for my IWT term project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "serve": "node server"
+  },
+  "author": "Suruchi Sahu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.2"
+  }
+}
