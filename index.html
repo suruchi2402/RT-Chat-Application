@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="logo">
+            <img height="40" src="/logo2.png" alt="">
+            <h1>Realtime Chat App</h1>
+        </div>
+        <div class="container"></div>
+
+
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp" placeholder="Enter Your Message">
+                <button class="btn" type="submit">send</button>
+            </form>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>

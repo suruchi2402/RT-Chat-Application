@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+.logo {
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(71, 67, 67);
+    margin-left: 10px;
+}
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(149, 149, 211);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 920px;  
+    height: 60vh;
+    border-radius: 15px;
+    padding: 33px;
+    overflow-y: auto;
+    margin:3px auto;
+    margin-bottom: 20px;
+}
+
+.message{
+    background-color: rgb(194, 190, 190);
+    width: 30%;
+    padding: 10px;
+    margin: 15px 10px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+}
+ .ti{
+    background-color: rgb(194, 190, 190);
+    max-width: 43%;
+    padding: 4px;
+    margin: 17px 10px;
+    margin-top: 1px;
+    border-radius: 9px;
+    font-size: x-small;
+ } 
+
+
+#send-container{
+display: block;
+margin: auto;
+text-align: center;
+width: 100%;
+max-width: 1000px;
+}
+
+#messageInp{
+    width: 88%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    background: #FBFBFB;   
+}
+
+.btn{
+    height: 32px;
+    width: 60px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.left{
+background: rgb(107, 107, 238);
+color: #fff;  
+float: left;
+clear: both;
+}
+
+.right{
+    background: #e9eafd;
+    color: #5d5d66;
+   float: right;
+   clear: both;
+}
+.middle{
+    background: #e9eafd;
+    color: #43434d;
+    display: block;
+    margin:  5px auto;
+    text-align: center;
+    clear: both;
+ }
